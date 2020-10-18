@@ -858,55 +858,10 @@ Wire Wire Line
 	6950 3850 6950 3500
 Wire Wire Line
 	6950 3500 6050 3500
-$Comp
-L Connector_Generic:Conn_01x01 J?
-U 1 1 609D3DA0
-P 7200 2950
-AR Path="/5FDBCCB2/609D3DA0" Ref="J?"  Part="1" 
-AR Path="/5FCD5242/609D3DA0" Ref="J7"  Part="1" 
-F 0 "J7" H 7280 2992 50  0000 L CNN
-F 1 "Conn_01x01" H 7280 2901 50  0000 L CNN
-F 2 "ASSETS:2.54MM PIN" H 7200 2950 50  0001 C CNN
-F 3 "~" H 7200 2950 50  0001 C CNN
-	1    7200 2950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J?
-U 1 1 609D3DA6
-P 7000 2950
-AR Path="/5FDBCCB2/609D3DA6" Ref="J?"  Part="1" 
-AR Path="/5FCD5242/609D3DA6" Ref="J6"  Part="1" 
-F 0 "J6" H 7080 2992 50  0000 L CNN
-F 1 "Conn_01x01" H 7080 2901 50  0000 L CNN
-F 2 "ASSETS:2.54MM PIN" H 7000 2950 50  0001 C CNN
-F 3 "~" H 7000 2950 50  0001 C CNN
-	1    7000 2950
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6950 3500 7000 3500
-Wire Wire Line
-	7000 3500 7000 3150
 Connection ~ 6950 3500
-$Comp
-L power:GND #PWR?
-U 1 1 609D9979
-P 7200 3150
-AR Path="/609D9979" Ref="#PWR?"  Part="1" 
-AR Path="/5FDBCCB2/609D9979" Ref="#PWR?"  Part="1" 
-AR Path="/5FCD5242/609D9979" Ref="#PWR0118"  Part="1" 
-F 0 "#PWR0118" H 7200 2900 50  0001 C CNN
-F 1 "GND" H 7205 2977 50  0000 C CNN
-F 2 "" H 7200 3150 50  0001 C CNN
-F 3 "" H 7200 3150 50  0001 C CNN
-	1    7200 3150
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
-	7600 3500 7000 3500
+	7600 3500 7150 3500
 Connection ~ 7600 3500
-Connection ~ 7000 3500
 $Comp
 L Diode:PMEG1030EJ D?
 U 1 1 609EC0B6
@@ -998,4 +953,38 @@ Wire Wire Line
 Connection ~ 4800 5750
 Wire Wire Line
 	4800 5750 4750 5750
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5F90E152
+P 7450 2950
+F 0 "J?" V 7414 2762 50  0000 R CNN
+F 1 "Conn_01x02" V 7323 2762 50  0000 R CNN
+F 2 "Battery:BatteryHolder_Keystone_1042_1x18650" H 7450 2950 50  0001 C CNN
+F 3 "~" H 7450 2950 50  0001 C CNN
+	1    7450 2950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 3150 7450 3400
+Wire Wire Line
+	7450 3400 7150 3400
+Wire Wire Line
+	7150 3400 7150 3500
+Connection ~ 7150 3500
+$Comp
+L power:GND #PWR?
+U 1 1 5F914054
+P 7550 3150
+AR Path="/5F914054" Ref="#PWR?"  Part="1" 
+AR Path="/5FDBCCB2/5F914054" Ref="#PWR?"  Part="1" 
+AR Path="/5FCD5242/5F914054" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7550 2900 50  0001 C CNN
+F 1 "GND" H 7555 2977 50  0000 C CNN
+F 2 "" H 7550 3150 50  0001 C CNN
+F 3 "" H 7550 3150 50  0001 C CNN
+	1    7550 3150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 3500 7150 3500
 $EndSCHEMATC

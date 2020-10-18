@@ -843,20 +843,6 @@ F 3 "" H 4000 2700 50  0001 C CNN
 $EndComp
 $Comp
 L Device:C_Small C?
-U 1 1 603F1980
-P 4500 1600
-AR Path="/603F1980" Ref="C?"  Part="1" 
-AR Path="/5F8F7848/603F1980" Ref="C?"  Part="1" 
-AR Path="/60193AFA/603F1980" Ref="C50"  Part="1" 
-F 0 "C50" V 4550 1700 50  0000 L CNN
-F 1 "270P" V 4550 1350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4500 1600 50  0001 C CNN
-F 3 "~" H 4500 1600 50  0001 C CNN
-	1    4500 1600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C?
 U 1 1 6041CE9A
 P 3650 4200
 AR Path="/6041CE9A" Ref="C?"  Part="1" 
@@ -1013,46 +999,10 @@ Wire Wire Line
 Connection ~ 2950 1750
 Wire Wire Line
 	2950 1750 2500 1750
-$Comp
-L Device:R_Small R20
-U 1 1 6050C041
-P 4850 2500
-F 0 "R20" V 4800 2650 50  0000 C CNN
-F 1 "20K" V 4800 2300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 4850 2500 50  0001 C CNN
-F 3 "~" H 4850 2500 50  0001 C CNN
-	1    4850 2500
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4850 2600 4850 2850
 Text GLabel 4850 1450 1    50   Input ~ 0
 ESPOSC_IN
 Text GLabel 4950 1900 1    50   Input ~ 0
 ESPOSC_OUT
-Wire Wire Line
-	4850 1450 4850 1600
-Wire Wire Line
-	4600 1600 4850 1600
-Connection ~ 4850 1600
-Wire Wire Line
-	4850 1600 4850 2400
-Wire Wire Line
-	4400 1600 4150 1600
-$Comp
-L power:GND #PWR?
-U 1 1 60582FC7
-P 4150 1600
-AR Path="/60582FC7" Ref="#PWR?"  Part="1" 
-AR Path="/5F8F7848/60582FC7" Ref="#PWR?"  Part="1" 
-AR Path="/60193AFA/60582FC7" Ref="#PWR0110"  Part="1" 
-F 0 "#PWR0110" H 4150 1350 50  0001 C CNN
-F 1 "GND" H 4155 1427 50  0000 C CNN
-F 2 "" H 4150 1600 50  0001 C CNN
-F 3 "" H 4150 1600 50  0001 C CNN
-	1    4150 1600
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4950 2850 4950 1900
 $Comp
@@ -1210,4 +1160,6 @@ NoConn ~ 5350 5850
 NoConn ~ 5450 5850
 NoConn ~ 5550 5850
 NoConn ~ 4050 4850
+Wire Wire Line
+	4850 1450 4850 2850
 $EndSCHEMATC
