@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "BSE Home Surveillance Node"
+Date "2020-10-19"
+Rev "v1"
+Comp "Blackshield Engineering"
 Comment1 ""
 Comment2 ""
 Comment3 ""

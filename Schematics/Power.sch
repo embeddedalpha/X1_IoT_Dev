@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "BSE Home Surveillance Node"
+Date "2020-10-19"
+Rev "v1"
+Comp "Blackshield Engineering"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -953,17 +953,6 @@ Wire Wire Line
 Connection ~ 4800 5750
 Wire Wire Line
 	4800 5750 4750 5750
-$Comp
-L Connector_Generic:Conn_01x02 J6
-U 1 1 5F90E152
-P 7450 2950
-F 0 "J6" V 7414 2762 50  0000 R CNN
-F 1 "Conn_01x02" V 7323 2762 50  0000 R CNN
-F 2 "Battery:BatteryHolder_Keystone_1042_1x18650" H 7450 2950 50  0001 C CNN
-F 3 "~" H 7450 2950 50  0001 C CNN
-	1    7450 2950
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7450 3150 7450 3400
 Wire Wire Line
@@ -987,4 +976,30 @@ F 3 "" H 7550 3150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6950 3500 7150 3500
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5F949558
+P 7750 3150
+AR Path="/5FDBCCB2/5F949558" Ref="J?"  Part="1" 
+AR Path="/5FCD5242/5F949558" Ref="J7"  Part="1" 
+F 0 "J7" H 7830 3192 50  0000 L CNN
+F 1 "Conn_01x01" H 7830 3101 50  0000 L CNN
+F 2 "ASSETS:2.54MM PIN" H 7750 3150 50  0001 C CNN
+F 3 "~" H 7750 3150 50  0001 C CNN
+	1    7750 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5F94955E
+P 7250 3150
+AR Path="/5FDBCCB2/5F94955E" Ref="J?"  Part="1" 
+AR Path="/5FCD5242/5F94955E" Ref="J6"  Part="1" 
+F 0 "J6" H 7330 3192 50  0000 L CNN
+F 1 "Conn_01x01" H 7330 3101 50  0000 L CNN
+F 2 "ASSETS:2.54MM PIN" H 7250 3150 50  0001 C CNN
+F 3 "~" H 7250 3150 50  0001 C CNN
+	1    7250 3150
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
