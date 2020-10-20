@@ -1,5 +1,7 @@
 # X1_IoT_Dev
 
+### Check out GrabCAD for STEP Model: https://grabcad.com/library/home-surveillance-node-v1-1
+
 ![IOTv1](https://user-images.githubusercontent.com/38166489/96461152-a841f080-1241-11eb-9dc8-0ab7d2a66658.jpg)
 
 ![IOTv1_iso](https://user-images.githubusercontent.com/38166489/96460565-f60a2900-1240-11eb-9a1b-1ae77986611c.jpg)
