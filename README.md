@@ -1,7 +1,7 @@
 # Wi-Fi & LoRA enabled Security Node
 
 ### Check out GrabCAD for STEP Model: https://grabcad.com/library/home-surveillance-node-v1-1
-### With generous help from JLCPCB
+### With generous help from JLCPCB. Check them out on jlcpcb.com
 
 ![1b83d655-3295-41b9-9d5b-cecb78344af5](https://user-images.githubusercontent.com/38166489/97114059-44716900-1714-11eb-8f09-c1eaecd36a98.PNG)
 
