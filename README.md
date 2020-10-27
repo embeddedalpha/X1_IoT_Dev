@@ -1,4 +1,4 @@
-# X1_IoT_Dev
+# Wi-Fi & LoRA enabled Security Node
 
 ### Check out GrabCAD for STEP Model: https://grabcad.com/library/home-surveillance-node-v1-1
 ### With generous help from JLCPCB
