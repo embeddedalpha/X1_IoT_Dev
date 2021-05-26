@@ -1,4 +1,4 @@
-# Wi-Fi & LoRA enabled Security Node
+# Wi-Fi & LoRA enabled Security Node  ![visitors](https://visitor-badge.glitch.me/badge?page_id=embeddedalpha.X1_IoT_Dev)
 
 ### Check out GrabCAD for STEP Model: https://grabcad.com/library/home-surveillance-node-v1-1
 ### With generous help from JLCPCB. Check them out on jlcpcb.com
